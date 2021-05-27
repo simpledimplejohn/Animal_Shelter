@@ -1,4 +1,21 @@
-.column {
-  width: 300px;
+.profiles {
+  width: 80%;
   float: left;
+  column-count: 3;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 20px dashed orange;
 }
+
+.headder {
+  width: 80%;
+  background-color: grey;
+  font-family: 'Courier New';
+  text-align: center;
+  padding: 10px;
+  border: 20px solid red;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
